@@ -1,6 +1,6 @@
 # Testing with Go
 
-In Go, tests are an integral part of the development process and are written in a separate file ending with `_test.go`. The standard Go testing package (`testing`) provides support for writing unit tests. 
+In Go, tests are written in a separate file ending with `_test.go`. The standard Go testing package (`testing`) provides support for writing unit tests. 
 
 1. Test Functions
 In Go, test functions are regular functions that start with the word `Test`, followed by a descriptive name and a parameter of type `*testing.T`. For example:
