@@ -55,10 +55,10 @@ func TestAdd(t *testing.T) {
 }
 ```
 
-5. Table-Driven Tests
+## 5. Table-Driven Tests
 Go encourages table-driven tests, where you provide input-output pairs as test cases in a table format. This makes it easy to add, modify, and understand test cases.
 
-## Example of Table-Driven test in Go
+### Example of Table-Driven test in Go
 
 ```go
 package mypackage
