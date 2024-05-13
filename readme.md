@@ -2,7 +2,7 @@
 
 In Go, tests are written in a separate file ending with `_test.go`. The standard Go testing package (`testing`) provides support for writing unit tests. 
 
-1. Test Functions
+## 1. Test Functions
 
 In Go, test functions are regular functions that start with the word `Test`, followed by a descriptive name and a parameter of type `*testing.T`. For example:
 
@@ -12,17 +12,17 @@ func TestMyFunction(t *testing.T) {
 }
 ```
 
-2. Test File Structure
+## 2. Test File Structure
 
 Test files typically mirror the package structure of the code being tested. For example, if your code is in a package named `mypackage`, your test file would be named `mypackage_test.go`.
 
-3. Test Assertions
+## 3. Test Assertions
 
 Inside test functions, you use the `*testing.T` parameter to report whether a test has passed or failed using assertion functions like `t.Errorf()`, `t.Fail()`, `t.FailNow()`, `t.Log()`, etc.
 
-4. Running Tests
+## 4. Running Tests
 
-You can run tests using the go test command followed by the package or directory containing your tests. For example:
+You can run tests using the `go test` command followed by the package or directory containing your tests. For example:
 
 ```bash
 go test ./...
